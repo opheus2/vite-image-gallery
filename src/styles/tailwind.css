@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.grid {
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    grid-auto-columns: 100%;
+    grid-auto-flow: row dense;
+}
+
+.horizontal {
+    grid-column: span 2;
+    /* grid-column: auto; */
+}
+
+.vertical {
+    grid-row: span 2;
+    /* grid-row: auto; */
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+    /* grid-column: auto;
+  grid-row: auto; */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 2px 16px var(--shadow);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
