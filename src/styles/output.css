@@ -784,6 +784,10 @@ a {
   min-width: 300px;
 }
 
+h1{
+  font-family: 'Palette Mosaic', cursive;
+}
+
 @media (min-width: 640px) {
   .sm\:p-6 {
     padding: 1.5rem;

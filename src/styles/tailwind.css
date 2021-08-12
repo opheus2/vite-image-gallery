@@ -39,3 +39,7 @@ a {
     align-items: center;
     min-width: 300px;
 }
+
+h1{
+    font-family: 'Palette Mosaic', cursive;
+}
